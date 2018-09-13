@@ -1,0 +1,10 @@
+heat_template_version: 2015-04-30
+
+description: Networks fragment
+
+resources:
+
+  private_net:
+    type: OS::Neutron::Net
+    properties:
+      name: heat_should_create_this_network 
